@@ -33,5 +33,5 @@ class logr:
 
 		joblib.dump(self.logmodel, 'trainned.pkl')
 		
-	def pred(self,desc):
+	def pred(self,desc): 
 		return self.logmodel.predict(desc)
